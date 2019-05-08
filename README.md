@@ -1,7 +1,3 @@
-<!--
-# -*- mode: jinja -*-
--->
-
 About quart
 ===========
 
@@ -25,8 +21,17 @@ with many of the Flask extensions.
 Current build status
 ====================
 
-All platforms:
-[![noarch](https://img.shields.io/circleci/project/github/conda-forge/quart-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/quart-feedstock)
+
+<table><tr>
+    
+    <td>All platforms:</td>
+    <td>
+      <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=4733&branchName=master">
+        <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/quart-feedstock?branchName=master">
+      </a>
+    </td>
+  </tr>
+</table>
 
 Current release info
 ====================
