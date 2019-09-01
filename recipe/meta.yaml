@@ -1,6 +1,6 @@
 {% set name = "Quart" %}
-{% set version = "0.9.1" %}
-{% set sha256 = "3b3e1207bdecbbae35b9aeef137abcf273768034423df77c9ad1034a105ddde3" %}
+{% set version = "0.10.0" %}
+{% set sha256 = "d329f2c392031f87c32ff2dcd6e11dc1fbf94c7449c3afe2d7541326ae390703" %}
 
 package:
   name: {{ name|lower }}
@@ -29,7 +29,7 @@ requirements:
     - aiofiles >=0.4.0
     - blinker >=1.4
     - click >=7.0
-    - hypercorn >=0.6.0
+    - hypercorn >=0.7.0
     - itsdangerous >=1.1.0
     - jinja2 >=2.10
     - multidict >=4.5.2
