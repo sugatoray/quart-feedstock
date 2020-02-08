@@ -1,6 +1,6 @@
 {% set name = "Quart" %}
-{% set version = "0.10.0" %}
-{% set sha256 = "d329f2c392031f87c32ff2dcd6e11dc1fbf94c7449c3afe2d7541326ae390703" %}
+{% set version = "0.11.0" %}
+{% set sha256 = "f9400cc84849eb36724b8233ee65db73bc499ab5ca8bdf023bd342a3a05a3989" %}
 
 package:
   name: {{ name|lower }}
@@ -14,7 +14,7 @@ source:
 build:
   noarch: python
   number: 0
-  script: python -m pip install --no-deps --ignore-installed .
+  script: {{ PYTHON }} -m pip install . --no-deps -vv
   entry_points:
     - quart=quart.cli:main
 
