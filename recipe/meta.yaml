@@ -32,8 +32,9 @@ requirements:
     - hypercorn >=0.7.0
     - itsdangerous >=1.1.0
     - jinja2 >=2.10
-    - multidict >=4.5.2
+    - toml
     - sortedcontainers >=2.1.0
+    - werkzeug >=1.0.0
 
 test:
   imports:
