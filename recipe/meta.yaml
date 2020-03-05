@@ -1,6 +1,6 @@
 {% set name = "Quart" %}
-{% set version = "0.11.2" %}
-{% set sha256 = "eb0859feddd8293e8514392d4cfebc5f6bb6486632625d191954771eb8282a01" %}
+{% set version = "0.11.3" %}
+{% set sha256 = "eef9c074c7ca856b9abc85e9291c684b955822bf38dbd23378886064415a20f6" %}
 
 package:
   name: {{ name|lower }}
@@ -33,7 +33,6 @@ requirements:
     - itsdangerous >=1.1.0
     - jinja2 >=2.10
     - toml
-    - sortedcontainers >=2.1.0
     - werkzeug >=1.0.0
 
 test:
@@ -47,7 +46,7 @@ about:
   license: MIT
   license_family: MIT
   license_file: LICENSE
-  summary: 'A Python ASGI web microframework with the same API as Flask'
+  summary: A Python ASGI web microframework with the same API as Flask
   description: |
     Quart is a Python ASGI web microframework. It is intended to provide the easiest way to use
     asyncio functionality in a web context, especially with existing Flask
