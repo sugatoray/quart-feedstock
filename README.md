@@ -5,7 +5,7 @@ Home: https://gitlab.com/pgjones/quart
 
 Package license: MIT
 
-Feedstock license: BSD 3-Clause
+Feedstock license: BSD-3-Clause
 
 Summary: A Python ASGI web microframework with the same API as Flask
 
