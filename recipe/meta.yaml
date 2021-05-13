@@ -1,6 +1,6 @@
 {% set name = "Quart" %}
-{% set version = "0.14.1" %}
-{% set sha256 = "429c5b4ff27e1d2f9ca0aacc38f6aba0ff49b38b815448bf24b613d3de12ea02" %}
+{% set version = "0.15.0" %}
+{% set sha256 = "26ce20887e409b36b85fa082b070306d912535e689416258e5bb4d641d0e2357" %}
 
 package:
   name: {{ name|lower }}
@@ -29,12 +29,12 @@ requirements:
     - aiofiles >=0.4.0
     - blinker >=1.4
     - click >=7.0
-    - hypercorn >=0.7.0
+    - hypercorn >=0.11.2
     - itsdangerous >=1.1.0
     - jinja2 >=2.10
     - toml
     - typing_extensions  # TODO: Remove for py>=38
-    - werkzeug >=1.0.0
+    - werkzeug >=2.0.0
 
 test:
   imports:
