@@ -23,6 +23,7 @@ requirements:
     - pip
     - python >=3.7.0
     - setuptools >=40.6.2
+    - poetry-core >=1.0.0
 
   run:
     - python >=3.7.0
