@@ -1,6 +1,6 @@
 {% set name = "Quart" %}
-{% set version = "0.15.1" %}
-{% set sha256 = "f80c91d1e0588662483e22dd9c368a5778886b62e128c5399d2cc1b1898482cf" %}
+{% set version = "0.16.0" %}
+{% set sha256 = "5ab34f4b588192b7b9aa20cbf3eae947c06fd82c2c6bcb6cd295351df335fad2" %}
 
 package:
   name: {{ name|lower }}
@@ -23,6 +23,7 @@ requirements:
     - pip
     - python >=3.7.0
     - setuptools >=40.6.2
+    - poetry-core >=1.0.0
 
   run:
     - python >=3.7.0
