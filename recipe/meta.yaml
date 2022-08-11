@@ -34,9 +34,10 @@ requirements:
     - importlib_metadata  # TODO: Remove for py>=38
     - itsdangerous >=1.1.0
     - jinja2 >=2.10
+    - markupsafe
     - toml
     - typing_extensions  # TODO: Remove for py>=38
-    - werkzeug >=2.0.0
+    - werkzeug >=2.2.0
 
 test:
   imports:
@@ -45,7 +46,7 @@ test:
     - quart --version
 
 about:
-  home: https://gitlab.com/pgjones/quart
+  home: https://github.com/pallets/quart/
   license: MIT
   license_family: MIT
   license_file: LICENSE
@@ -58,8 +59,8 @@ about:
     HTTP/1.1, HTTP/2 and websockets. Quart is very extendable and has a
     number of known extensions and works
     with many of the Flask extensions.
-  doc_url: https://pgjones.gitlab.io/quart/
-  dev_url: https://gitlab.com/pgjones/quart
+  doc_url: https://quart.palletsprojects.com/
+  dev_url: https://github.com/pallets/quart/
 
 extra:
   recipe-maintainers:
