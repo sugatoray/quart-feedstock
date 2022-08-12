@@ -12,11 +12,11 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  noarch: python
   number: 0
-  script: {{ PYTHON }} -m pip install . --no-deps -vv
+  noarch: python
   entry_points:
     - quart=quart.cli:main
+  script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
   host:
@@ -24,6 +24,7 @@ requirements:
     - python >=3.7.0
     - setuptools >=40.6.2
     - poetry-core >=1.0.0
+    - toml
 
   run:
     - python >=3.7.0
@@ -59,6 +60,9 @@ about:
     HTTP/1.1, HTTP/2 and websockets. Quart is very extendable and has a
     number of known extensions and works
     with many of the Flask extensions.
+    
+    PyPI: [https://pypi.org/project/quart/](https://pypi.org/project/quart/)
+    
   doc_url: https://quart.palletsprojects.com/
   dev_url: https://github.com/pallets/quart/
 
@@ -66,3 +70,4 @@ extra:
   recipe-maintainers:
     - maxyme
     - dhirschfeld
+    - sugatoray
